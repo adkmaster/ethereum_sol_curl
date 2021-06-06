@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "state",
+						"type": "int256[]"
+					}
+				],
+				"name": "transform",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "idx",
+						"type": "uint256"
+					}
+				],
+				"name": "TRUTH_TABLE",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "trits",
+						"type": "int256[]"
+					},
+					{
+						"name": "state",
+						"type": "int256[]"
+					}
+				],
+				"name": "absorb",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "state",
+						"type": "int256[]"
+					}
+				],
+				"name": "squeeze",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int256[243]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CURL.sol": "CURL"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CURL.sol": {
+			"keccak256": "0xaa1e4fac80e3b0f1869d234fd1afa41118466e4fef1dde07b20cd7706fb2e818",
+			"urls": [
+				"bzzr://af1be9f43494c31ec7c98a5b11c549b89962d70b1869730b69de9c4f411d9ca3"
+			]
+		}
+	},
+	"version": 1
+}
